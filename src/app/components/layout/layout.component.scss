@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    background-color: #4A7623;
+  }
+  
+  aside{
+    width:20%;
+    height: 100vh;
+    background-color: #333;
+    /* Esto lo mantendra en su sitio */
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  .contenido{
+    width: 80%;
+    
+    background-color: #4A7623;
+    /* Esto equilibria lo del aside */
+    position: absolute;
+    top: 0;
+    left: 20%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 2.5%;
+
+  }
+
+  .tarjeta{
+      padding-top: 1%;
+      padding-bottom: 5%;
+      padding-right: 10%;
+      padding-left: 10%;
+      border-color: #ffffff;
+  }

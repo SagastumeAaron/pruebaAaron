@@ -1,0 +1,14 @@
+<div class="row card contenedor" style="height: 80vh;">
+  <!-- <a href="procesos/calcular" style="color: black; text-decoration: none;"> -->
+  <a class="row" style="color: black; text-decoration: none;">
+    <div class="col-sm-6" align="center" *ngFor="let noticia of noticias; let i=index" style="padding-bottom: 2%;">
+      <a [routerLink]="['/noticias/'+noticia.id]" style="color: black; text-decoration: none;">
+
+        <div class="card tarjeta">
+          <h5 class="card-title">{{noticia.title}}</h5>
+        </div>
+      </a>
+
+    </div>
+  </a>
+</div>

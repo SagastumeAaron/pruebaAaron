@@ -1,0 +1,7 @@
+<div *ngIf="loadNoticia">
+    <h3>Cargando...</h3>
+</div>
+<div *ngIf="!loadNoticia">
+    <h2>{{noticiaSelected.title}}</h2>
+    <p>{{noticiaSelected.body}}</p>
+</div>
